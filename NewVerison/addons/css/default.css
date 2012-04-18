@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+Table_New {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 36px;
+}
+.TBL_News {
+	border-collapse: collapse;
+	border: 1px solid silver;	
+}
+.TBL_Head {
+	font-family: verdana; 
+	font-weight: bold; 
+	text-align: center; 
+	color: black;
+	font-size: 12px; 
+	background-image: url(../../img/un/a/c2.gif);	
+}
+td {
+	font-size: 12px;	
+}
+.fields {
+	border-collapse: collapse;
+	border: 1px solid #71D000;	
+}
+.EDN {
+width: 20px;
+text-align: center;	
+}
