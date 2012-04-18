@@ -8,172 +8,170 @@
 //                                 DO NOT REMOVE COPYRIGHT NOTICE!                                  //
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 									   //                         //
-									   //         English         //
-									   //      Author: Mauroalt
-                                                                                                                                //       Translate: Dzoki (85%) itay2277 (15%)
+									   //         ITALIAN         //
+									   //      Author: Mauroalt   //
 									   /////////////////////////////
 
 //MAIN MENU
-define("TRIBE1","Romans"); 
-define("TRIBE2","Teutons");
-define("TRIBE3","Gauls"); 
-define("TRIBE4","Nature"); 
+define("TRIBE1","Romani"); 
+define("TRIBE2","Teutoni");
+define("TRIBE3","Galli"); 
+define("TRIBE4","Animali"); 
 define("TRIBE5","Natars");
-define("TRIBE6","Monsters");
+define("TRIBE6","Mostri");
  
 define("HOME","Homepage"); 
-define("INSTRUCT","Instructions");
-define("ADMIN_PANEL","Admin Panel");
-define("MH_PANEL"," MultiHunter Panel");  
-define("MASS_MESSAGE","Mass Message");
+define("INSTRUCT","Istruzioni");
+define("ADMIN_PANEL","Pannello Admin");
+define("MH_PANEL","Pannello MultiHunter");  
+define("MASS_MESSAGE","MC Server");
 define("LOGOUT","Logout");
-define("PROFILE","Profile");
-define("SUPPORT","Support");
-define("UPDATE_T_10","Update Top 10");
-define("SYSTEM_MESSAGE","System message");
-define("TRAVIAN_PLUS","Travian <b><span class=\"plus_g\">P</span><span class=\"plus_o\">l</span><span class=\"plus_g\">u</span><span class=\"plus_o\">s</span></span></span></b>");
-define("CONTACT","Contact us!");
-define("ANNONCEMENT","Announcement");
-define("GO_VILLAGE","Go to my village");
+define("PROFILE","Profilo");
+define("SUPPORT","Supporto");
+define("UPDATE_T_10","Aggiorna Top 10");
+define("SYSTEM_MESSAGE","MC Sistema");
+define("TRAVIAN_PLUS","". SERVER_NAME ."<b><span class=\"plus_g\">P</span><span class=\"plus_o\">l</span><span class=\"plus_g\">u</span><span class=\"plus_o\">s</span></span></span></b>");
+define("CONTACT","Contattaci!");
+define("ANNONCEMENT","Annuncio");
+define("GO_VILLAGE","Vai al mio villaggio");
 
 //MENU
-define("REG","Register");
+define("REG","Registrati");
 define("FORUM","Forum");
 define("CHAT","Chat");
 define("IMPRINT","Imprint");
-define("MORE_LINKS","More links");
+define("MORE_LINKS","Altri Links");
 define("TOUR","Game Tour");
 
 
 //ERRORS
-define("USRNM_EMPTY","(Username empty)");
-define("USRNM_TAKEN","(Name is already in use.)");
-define("USRNM_SHORT","(min. ".USRNM_MIN_LENGTH." figures)");
-define("USRNM_CHAR","(Invalid Characters)");
-define("PW_EMPTY","(Password empty)");
-define("PW_SHORT","(min. ".PW_MIN_LENGTH." figures)");
-define("PW_INSECURE","(Password insecure. Please choose a more secure one.)");
-define("EMAIL_EMPTY","(Email Empty)");
-define("EMAIL_INVALID","(Invalid email address)");
-define("EMAIL_TAKEN","(Email is already in use)");
-define("TRIBE_EMPTY","<li>Please choose a tribe.</li>");
-define("AGREE_ERROR","<li>You have to agree to the game rules and the general terms & conditions in order to register.</li>");
-define("LOGIN_USR_EMPTY","Enter name.");
-define("LOGIN_PASS_EMPTY","Enter password.");
-define("EMAIL_ERROR","Email does not match existing");
-define("PASS_MISMATCH","Passwords do not match");
-define("ALLI_OWNER","Please appoint an alliance owner before deleting");
-define("SIT_ERROR","Sitter already set");
-define("USR_NT_FOUND","Name does not exist.");
-define("LOGIN_PW_ERROR","The password is wrong.");
-define("WEL_TOPIC","Useful tips & information ");
-define("ATAG_EMPTY","Tag empty");
-define("ANAME_EMPTY","Name empty");
-define("ATAG_EXIST","Tag taken");
-define("ANAME_EXIST","Name taken");
-define("NOT_OPENED_YET","Server not started yet.");
-define("THANK_TOPIC","Credit gold");
+define("USRNM_EMPTY","(Username vuoto)");
+define("USRNM_TAKEN","(Nome gi&agrave in uso.)");
+define("USRNM_SHORT","(min. ".USRNM_MIN_LENGTH." caratteri)");
+define("USRNM_CHAR","(Caratteri invalidi)");
+define("PW_EMPTY","(Password vuota)");
+define("PW_SHORT","(min. ".PW_MIN_LENGTH." caratteri)");
+define("PW_INSECURE","(Password insicura. Per favore inserisci una password pi&ugrave sicura.)");
+define("EMAIL_EMPTY","(Email vuota)");
+define("EMAIL_INVALID","(Indirizzo email non valido)");
+define("EMAIL_TAKEN","(Email gi&agrave in uso)");
+define("TRIBE_EMPTY","<li>Per favore scegli la popolazione.</li>");
+define("AGREE_ERROR","<li>Devi accettare le regole del gioco, i termini e le condizioni generaliper poterti registrare.</li>");
+define("LOGIN_USR_EMPTY","Inserisci il nome.");
+define("LOGIN_PASS_EMPTY","inserisci la password.");
+define("EMAIL_ERROR","Email non esistente.");
+define("PASS_MISMATCH","Passwords non corrispondente");
+define("ALLI_OWNER","Si prega di nominare un capo alleanza prima del delete");
+define("SIT_ERROR","Sitter gi&agrave inserito");
+define("USR_NT_FOUND","Nome utente inesistente.");
+define("LOGIN_PW_ERROR","La password &egrave errata.");
+define("WEL_TOPIC","Consigli utili e informazioni");
+define("THANK_TOPIC","Accredito GOLD");
+define("ATAG_EMPTY","Tag vuota");
+define("ANAME_EMPTY","Nome vuoto");
+define("ATAG_EXIST","Tag in uso");
+define("ANAME_EXIST","Nome in uso");
 
 //COPYRIGHT
 define("TRAVIAN_COPYRIGHT","". SERVER_NAME ." 100% Open Source.");
 
 //BUILD.TPL
-define("CUR_PROD","Current production");
-define("NEXT_PROD","Production at level ");
+define("CUR_PROD","Produzione corrente");
+define("NEXT_PROD","Produzione a livello");
 
 //BUILDINGS
-define("B1","Woodcutter");
-define("B1_DESC","The Woodcutter cuts down trees in order to produce lumber. The further you extend the bid1 the more lumber is produced by him.");
-define("B2","Clay Pit");
-define("B2_DESC","Clay is produced here. By increasing its level you increase its clay production.");
-define("B3","Iron Mine");
-define("B3_DESC","Here miners produce the precious resource iron. By increasing the mine`s level you increase its iron production.");
-define("B4","Cropland");
-define("B4_DESC","Your population`s food is produced here. By increasing the farm`s level you increase its crop production.");
-define("B5","Sawmill");
-define("B5_DESC","Here wood delivered by your lumberjacks is processed. Based on its level your sawmill can increase your wood production by up to 25 percent.");
-define("B6","Brickyard");
-define("B6_DESC","Here clay is processed into bricks. Based on its level, your brickyard can increase a villages' clay production by up to 25 percent.");
-define("B7","Iron Foundry");
-define("B7_DESC","Iron is melted here. Based on its level your iron foundry can increase your iron production by up to 25 percent.");
-define("B8","Grain Mill");
-define("B9","Bakery");
-define("B10","Warehouse");
-define("B11","Ganary");
-define("B12","Blacksmith");
-define("B13","Armoury");
-define("B14","Tournament Square");
-define("B15","Main Building");
-define("B16","Rally Point");
-define("B16_DESC","Your village's troops meet here. From here you can send them out to conquer, attack, raid or reinforce other villages. ");
-define("B17","Marketplace");
-define("B18","Embassy");
-define("B19","Barracks");
-define("B20","Stable");
-define("B21","Workshop");
-define("B22","Academy");
-define("B23","Cranny");
-define("B24","Town hall");
-define("B25","Residence");
-define("B26","Palace");
-define("B27","Treasury");
-define("B28","Trade Office");
-define("B29","Great Barracks");	
-define("B30","Grande Stable");
-define("B31","City Wall");
-define("B32","Earth Wall"); 
-define("B33","Palisade");
-define("B34","Stonemason's Lodge");
-define("B35","Brewery");
-define("B36","Trapper");
-define("B37","Hero's Mansion");			
-define("B38","Great Warehouse");
-define("B39","Great Ganary");	
-define("B40","Wonder of the World");
-define("B41","Hors Drinking Trough");	
-define("B42","Great Workshop");
+define("B1","Taglialegna");
+define("B1_DESC","Il boscaiolo serve a produrre legna. Aumenta il livello del boscaiolo per aumentare la tua produzione di legno.");
+define("B2","Cava di argilla");
+define("B2_DESC","L'argilla viene prodotta qui. Aumenta il livello della cava per aumentare la tua produzione di argilla.");
+define("B3","Miniera di ferro");
+define("B3_DESC","Questa miniera produce la preziosa risorsa di ferro. Aumenta il livello della miniera per aumentare la tua produzione di ferro.");
+define("B4","Campo di grano");
+define("B4_DESC","Qui viene prodotto il cibo per la vostra popolazione. Aumenta il livello del campo di grano per aumentare la tua produzione di grano.");
+define("B5","Segheria");
+define("B5_DESC","Qui il legno raccolto dai boscaioli viene lavorato. A seconda del livello potrai incrementare la tua produzione di legna fino al 25%.");
+define("B6","Fabbrica di mattoni");
+define("B6_DESC","Qui l'argilla viene trasformata in mattoni. In base al livello della fabbrica puoi incrementare l'estrazione dell'argilla fino al 25%.");
+define("B7","Fonderia");
+define("B7_DESC","Qui viene lavorato il ferro. Aumentando il livello di questa struttura anche l'abilitא dei tuoi operai crescerא e potrai incrementare la produzione fino al 25%.");
+define("B8","Mulino");
+define("B9","Forno");
+define("B10","Magazzino");
+define("B11","Granaio");
+define("B12","Fabbro");
+define("B13","Armeria");
+define("B14","Arena");
+define("B15","Palazzo pubblico");
+define("B16","Caserma");
+define("B16_DESC","Le truppe del tuo villaggio si incontrano qui. Da qui puoi inviare le truppe a conquistare, saccheggiare o rinforzare altri villaggi.");
+define("B17","Mercato");
+define("B18","Ambasciata");
+define("B19","Campo di addestramento");
+define("B20","Scuderia");
+define("B21","Officina");
+define("B22","Accademia");
+define("B23","Deposito segreto");
+define("B24","Municipio");
+define("B25","Reggia");
+define("B26","Castello");
+define("B27","Camera del Tesoro");
+define("B28","Ufficio commerciale");
+define("B29","Grande campo di addestramento");	
+define("B30","Grande scuderia");
+define("B31","Mura cittadine");
+define("B32","Mura di pietra"); 
+define("B33","Palizzata");
+define("B34","Carpentiere");
+define("B35","Birreria");
+define("B36","Esperto di trappole");
+define("B37","Circolo degli eroi");			
+define("B38","Grande Magazzino");
+define("B39","Grande Granaio");	
+define("B40","Meraviglia del mondo");
+define("B41","Fonte equestre");	
+define("B42","Grande officina");
 
 
 
 
 
 //DORF1
-define("LUMBER","Lumber");
-define("CLAY","Clay");
-define("IRON","Iron");
-define("CROP","Crop");
-define("LEVEL","Level");
-define("CROP_COM",CROP." consumption");
-define("PER_HR","per hour");
-define("PROD_HEADER","Production");
-define("MULTI_V_HEADER","Villages");
-define("ANNOUNCEMENT","Announcement");
-define("GO2MY_VILLAGE","Go to my village");
-define("VILLAGE_CENTER","Village centre");
-define("FINISH_GOLD","Finish all construction and research orders in this village immediately for 2 Gold?");
-define("WAITING_LOOP","(waiting loop)");
-define("HRS","(hrs.)");
-define("DONE_AT","done at");
-define("CANCEL","cancel");
-define("LOYALTY","Loyalty:"); 
-define("CALCULATED_IN","Calculated in");
-define("SEVER_TIME","Server time:");  
+define("LUMBER","Legno");
+define("CLAY","Argilla");
+define("IRON","Ferro");
+define("CROP","Grano");
+define("LEVEL","Livello");
+define("CROP_COM",CROP."Consumo");
+define("PER_HR","per ora");
+define("PROD_HEADER","Produzione");
+define("MULTI_V_HEADER","Villaggi");
+define("ANNOUNCEMENT","Annuncio");
+define("GO2MY_VILLAGE","Vai al mio villaggio");
+define("VILLAGE_CENTER","Centro del villaggio");
+define("FINISH_GOLD","Vuoi completare tutte le costruzioni e tutte le ricerche in corso immediatamente in questo villaggio per 2 Gold?");
+define("WAITING_LOOP","(in coda)");
+define("HRS","(Ora.)");
+define("DONE_AT","Terminato alle");
+define("CANCEL","Cancella");
+define("LOYALTY","Lealt&agrave;:"); 
+define("CALCULATED_IN","Calcolato in");
+define("SEVER_TIME","Orario Server:");  
 
 //DORF2
 
 //DORF3
 
 //header.tpl
-define("MAP","Map");
-define("RESOURCES","Resources");
-define("STATISTICS","Statistics");
+define("MAP","Mappa");
+define("RESOURCES","Risorse");
+define("STATISTICS","Statistiche");
 define("REPORTS","Report");
-define("MESSAGES","Messages");
+define("MESSAGES","Messaggi");
 
 //QUEST
-define("Q_CONTINUE","Continue with the next task.");
+define("Q_CONTINUE","Continua con la seguente prova.");
 define("Q_REWARD","Your reward:");
-define("Q0","Welcome to ");
+define("Q0","Benvenuto ");
 define("Q0_DESC","As I see you have been made chieftain of this little village. I will be your counselor for the first few days and never leave your (right hand) side.");
 define("Q0_OPT1","To the first task.");
 define("Q0_OPT2","Look around on your own.");
@@ -217,55 +215,55 @@ define("Q5_RESP","As you noticed, building orders take rather long. The world of
 //======================================================//
 //================ UNITS - DO NOT EDIT! ================//
 //======================================================//
-define("U0","Hero");
+define("U0","Eroe");
 
 //ROMAN UNITS
-define("U1","Legionnaire");
-define("U2","Praetorian");
-define("U3","Imperian");
-define("U4","Equites Legati");
-define("U5","Equites Imperatoris");
-define("U6","Equites Caesaris");
-define("U7","Battering Ram");
-define("U8","Fire Catapult");
-define("U9","Senator");
-define("U10","Settler");
+define("U1","Legionari");
+define("U2","Pretoriani");
+define("U3","Imperiani");
+define("U4","Spie");
+define("U5","Cavalleria Leggera");
+define("U6","Cavalleria Pesante");
+define("U7","Arieti");
+define("U8","Onagri");
+define("U9","Senatori");
+define("U10","Coloni");
 
 //TEUTON UNITS
-define("U11","Clubswinger");
-define("U12","Spearman");
-define("U13","Axeman");
+define("U11","Combattenti");
+define("U12","Lanceri");
+define("U13","Combattenti con ascia");
 define("U14","Scout");
-define("U15","Paladin");
-define("U16","Teutonic Knight");
-define("U17","Ram");
-define("U18","Catapult");
-define("U19","Chief");
-define("U20","Settler");
+define("U15","Paladini");
+define("U16","Cavalieri Teutonici");
+define("U17","Arieti");
+define("U18","Catapulte");
+define("U19","Comandanti");
+define("U20","Coloni");
 
 //GAUL UNITS
-define("U21","Phalanx");
-define("U22","Swordsman");
-define("U23","Pathfinder");
-define("U24","Theutates Thunder");
-define("U25","Druidrider");
-define("U26","Haeduan");
-define("U27","Ram");
-define("U28","Trebuchet");
-define("U29","Chieftain");
-define("U30","Settler");
+define("U21","Falangi");
+define("U22","Combattente con spada");
+define("U23","Ricognitori");
+define("U24","Fulmini di Teutates");
+define("U25","Cavalieri Druidi");
+define("U26","Paladino di Haeduan");
+define("U27","Arieti");
+define("U28","Trabucchi");
+define("U29","Capi tribש");
+define("U30","Coloni");
 
 //NATURE UNITS
-define("U31","Rat");
-define("U32","Spider");
-define("U33","Snake");
-define("U34","Bat");
-define("U35","Wild Boar");
-define("U36","Wolf");
-define("U37","Bear");
-define("U38","Crocodile");
-define("U39","Tiger");
-define("U40","Elephant");
+define("U31","Topi");
+define("U32","Ragni");
+define("U33","Serpenti");
+define("U34","Pipistrelli");
+define("U35","Cinghiali");
+define("U36","Lupi");
+define("U37","Orsi");
+define("U38","Coccodrilli");
+define("U39","Tigri");
+define("U40","Elefanti");
 
 //NATARS UNITS
 define("U41","Pikeman");
@@ -293,23 +291,23 @@ define("U60","Monster Settler");
 
 //INDEX.php
 define("LOGIN","Login");
-define("PLAYERS","Players");
+define("PLAYERS","Giocatori");
 define("ONLINE","Online");
 define("TUTORIAL","Tutorial");
-define("PLAYER_STATISTICS","Player statistics");
-define("TOTAL_PLAYERS","".PLAYERS." in total");
-define("ACTIVE_PLAYERS","Active players");
+define("PLAYER_STATISTICS","Statistiche Giocatori");
+define("TOTAL_PLAYERS","".PLAYERS." in totale");
+define("ACTIVE_PLAYERS","Giocatori attivi");
 define("ONLINE_PLAYERS","".PLAYERS." online");
 define("MP_STRATEGY_GAME","".SERVER_NAME." - the multiplayer strategy game");
-define("WHAT_IS","".SERVER_NAME." is one of the most popular browser games in the world. As a player in ".SERVER_NAME.", you will build your own empire, recruit a mighty army, and fight with your allies for game world hegemony.");
-define("REGISTER_FOR_FREE","Register here for free!");
+define("WHAT_IS","".SERVER_NAME." ט un nuovo browser games. Ogni player ".SERVER_NAME.", you will build your own empire, recruit a mighty army, and fight with your allies for game world hegemony.");
+define("REGISTER_FOR_FREE","Registrati qui gratis!");
 define("LATEST_GAME_WORLD","Latest game world");
-define("LATEST_GAME_WORLD2","Register on the latest<br/>game world and enjoy<br/>the advantages of<br/>being one of the<br/>first players.");
-define("PLAY_NOW","Play ".SERVER_NAME." now");
-define("LEARN_MORE","Learn more <br/>about ".SERVER_NAME."!");
+define("LATEST_GAME_WORLD2","Registrati nel nuovot<br/>server game e gioca.<br/>Cogli il vantaggio di<br/>uno dei primi <br/>giocatori iscritti.");
+define("PLAY_NOW","Gioca ".SERVER_NAME." adesso");
+define("LEARN_MORE","Altre informazioni <br/>".SERVER_NAME."!");
 define("LEARN_MORE2","Now with a revolutionised<br>server system, completely new<br>graphics <br>This clone is The Shiz!");
 define("COMUNITY","Community");
-define("BECOME_COMUNITY","Become part of our community now!");
+define("BECOME_COMUNITY","Entra a far parte della nostra comunitא adesso!");
 define("BECOME_COMUNITY2","Become a part of one of<br>the biggest gaming<br>communities in the<br>world.");
 define("NEWS","News");
 define("SCREENSHOTS","Screenshots");
@@ -326,72 +324,71 @@ define("P_TOTAL","Players in total: ");
 define("CHOOSE","Please choose a server.");
 define("STARTED"," The server started ". round((time()-COMMENCE)/86400) ." days ago.");
 
-
 //ANMELDEN.php
 define("NICKNAME","Nickname");
 define("EMAIL","Email");
 define("PASSWORD","Password");
-define("ROMANS","Romans");
-define("TEUTONS","Teutons");
-define("GAULS","Gauls");
-define("NW","North West");
-define("NE","North East");
-define("SW","South West");
-define("SE","South East");
-define("RANDOM","Random");
-define("ACCEPT_RULES"," I accept the game rules and general terms and conditions.");
-define("ONE_PER_SERVER","Each player may only own ONE account per server.");
-define("BEFORE_REGISTER","Before you register an account you should read the <a href='../anleitung.php' target='_blank'>instructions</a> of TravianX to see the specific advantages and disadvantages of the three tribes.");
-define("BUILDING_UPGRADING","Building:");
-define("HOURS","Hours");
+define("ROMANS","Romani");
+define("TEUTONS","Teutoni");
+define("GAULS","Galli");
+define("NW","Nord Ovest");
+define("NE","Nord Est");
+define("SW","Sud Ovest");
+define("SE","Sud Est");
+define("RANDOM","Casuale");
+define("ACCEPT_RULES","Accetto le regole del gioco, i termini e le condizioni generali.");
+define("ONE_PER_SERVER","Ogni giocatore pu&ograve; avere un solo account attivo per server.");
+define("BEFORE_REGISTER","Prima di registrare un account &egrave consigliabile leggere le <a href='../anleitung.php' target='_blank'>istruzioni</a> del gioco per vedere gli specifici vantaggi e svantaggi di ogni popolazione.");
+define("BUILDING_UPGRADING","Costruzioni:");
+define("HOURS","Ore");
 
 
 //ATTACKS ETC.
-define("TROOP_MOVEMENTS","Troop Movements:");
-define("ARRIVING_REINF_TROOPS","Arriving reinforcing troops");
-define("ARRIVING_REINF_TROOPS_SHORT","Reinf.");
-define("OWN_ATTACKING_TROOPS","Own attacking troops");
-define("ATTACK","Attack");
-define("OWN_REINFORCING_TROOPS","Own reinforcing troops");
-define("TROOPS_DORF","Troops:");
+define("TROOP_MOVEMENTS","Movimento truppe:");
+define("ARRIVING_REINF_TROOPS","Rinforzi in arrivo");
+define("ARRIVING_REINF_TROOPS_SHORT","Rinforzi");
+define("OWN_ATTACKING_TROOPS","Attacchi in arrivo");
+define("ATTACK","Attacco");
+define("OWN_REINFORCING_TROOPS","Proprie truppe di rinforzo");
+define("TROOPS_DORF","Truppe:");
 
 
 //LOGIN.php
-define("COOKIES","You must have cookies enabled to be able to log in. If you share this computer with other people you should log out after each session for your own safety.");
-define("NAME","Name");
-define("PW_FORGOTTEN","Password forgotten?");
-define("PW_REQUEST","Then you can request a new one which will be sent to your email address.");
-define("PW_GENERATE","All fields required");
-define("EMAIL_NOT_VERIFIED","Email not verified!");
-define("EMAIL_FOLLOW","Follow this link to activate your account.");
-define("VERIFY_EMAIL","Verify Email.");
+define("COOKIES","Devi attivare i cookie per poter fare il login. Se si condivide il computer con altre persone si dovr&agrave uscire dopo ogni sessione per la vostra sicurezza.");
+define("NAME","Nome");
+define("PW_FORGOTTEN","Password perduta?");
+define("PW_REQUEST","Puoi richiederne una nuova che sar&agrave inviata al tuo indirizzo email.");
+define("PW_GENERATE","Tutti i campi sono obbligatori");
+define("EMAIL_NOT_VERIFIED","E-mail non verificata!");
+define("EMAIL_FOLLOW","Segui questo link per attivare il tuo account.");
+define("VERIFY_EMAIL","Verificare e-mail.");
 
 //LOGOUT
-define("LOGOUT_END","Successful logout.");
-define("THANKS","Thanks for your visit.");
-define("COOKIES_LOGOUT","If others use this computer, you must delete the cookies for your safety:");
-define("COOKIES_DELETE","Delete Cookies");
+define("LOGOUT_END","Logout avvenuto con successo.");
+define("THANKS","Grazie per la vostra visita.");
+define("COOKIES_LOGOUT","Se anche altre persone usano questo computer, &egrave necessario eliminare i cookie per la vostra sicurezza:");
+define("COOKIES_DELETE","Cancella Cookies");
 
 //404.php
-define("NOTHING_HERE","There's nothing here!");
-define("WE_LOOKED","Error 404 page not found");
+define("NOTHING_HERE","Non c'&egrave niente qui!");
+define("WE_LOOKED","Errore 404 pagina non trovata");
 
 //TIME RELATED
-define("CALCULATED","Calculated in");
-define("SERVER_TIME","Server Time:");
+define("CALCULATED","Calcolato in");
+define("SERVER_TIME","Orario Server:");
 
 //MASSMESSAGE.php
-define("MASS","Message Content");
-define("MASS_SUBJECT","Subject:");
-define("MASS_COLOR","Message color:");
-define("MASS_REQUIRED","All fields required");
-define("MASS_UNITS","Images (units):");
-define("MASS_SHOWHIDE","Show/Hide");
-define("MASS_READ","Read this: after adding smilie, you have to add left or right after number otherwise image will won't work");
-define("MASS_CONFIRM","Confirmation");
-define("MASS_REALLY","Do you really want to send MassIGM?");
-define("MASS_ABORT","Aborting right now");
-define("MASS_SENT","Mass IGM was sent");
+define("MASS","Contenuto messaggio");
+define("MASS_SUBJECT","Soggetto:");
+define("MASS_COLOR","Colore Messaggio:");
+define("MASS_REQUIRED","Tutti i campi sono obbligatori");
+define("MASS_UNITS","Immagini (unitא):");
+define("MASS_SHOWHIDE","Mostra / Nascondi");
+define("MASS_READ","Nota bene: dopo aver aggiunto smiles, dei aggiungere a sinistra o a destra il numero dell'immagine altrimenti non non verr&agrave visualizzata");
+define("MASS_CONFIRM","Conferma");
+define("MASS_REALLY","Vuoi davvero inviare un MassIGM?");
+define("MASS_ABORT","Annulla adesso");
+define("MASS_SENT","Mass IGM &egrave stato inviato");
 
 
 /*
@@ -400,24 +397,24 @@ define("MASS_SENT","Mass IGM was sent");
 |--------------------------------------------------------------------------
 */
 
-       $lang['index'][0][1] = "Welcome to " . SERVER_NAME . "";
-       $lang['index'][0][2] = "Manual";
-       $lang['index'][0][3] = "Play now, for free!";
-       $lang['index'][0][4] = "What is " . SERVER_NAME . "";
-       $lang['index'][0][5] = "" . SERVER_NAME . " is a <b>browser game</b> featuring an engaging ancient world with thousands of other real players.</p><p>It`s <strong>free to play</strong> and requires <strong>no downloads</strong>.";
-       $lang['index'][0][6] = "Click here to play " . SERVER_NAME . "";
-       $lang['index'][0][7] = "Total players";
-       $lang['index'][0][8] = "Players active";
-       $lang['index'][0][9] = "Players online";
-       $lang['index'][0][10] = "About the game";
-       $lang['index'][0][11] = "You will begin as the chief of a tiny village and will embark on an exciting quest.";
-       $lang['index'][0][12] = "Build up villages, wage wars or establish trade routes with your neighbours.";
-       $lang['index'][0][13] = "Play with and against thousands of other real players and conquer the the world of Travian.";
+       $lang['index'][0][1] = "Bevenuto in " . SERVER_NAME . "";
+       $lang['index'][0][2] = "Manuale";
+       $lang['index'][0][3] = "Gioca adesso, ט gratis!";
+       $lang['index'][0][4] = "Cosa ט " . SERVER_NAME . "?";
+       $lang['index'][0][5] = "" . SERVER_NAME . " &egrave; un <b>browser game</b> ispirato ad un avvincente mondo antico con migliaia di altri giocatori reali.</p><p>E' <strong>un gioco gratis</strong> e non sono richiesti <strong>downloads</strong>.";
+       $lang['index'][0][6] = "Clicca qui per giocare " . SERVER_NAME . "";
+       $lang['index'][0][7] = "Giocatori Totali";
+       $lang['index'][0][8] = "Giocatori Attivi";
+       $lang['index'][0][9] = "Giocatori Online";
+       $lang['index'][0][10] = "Informazioni sul gioco";
+       $lang['index'][0][11] = "Inizia come capo di un piccolo villaggio ed avventurati in eccitanti prove.";
+       $lang['index'][0][12] = "Costruisci il tuo villaggio, inizia guerre o stabilisci rotte commerciali con i tuoi vicini.";
+       $lang['index'][0][13] = "Gioca contro migliaia di altri giocatori reali e conquista il mondo di Epicwars.";
        $lang['index'][0][14] = "News";
        $lang['index'][0][15] = "FAQ";
        $lang['index'][0][16] = "Screenshots";
        $lang['forum'] = "Forum";
-       $lang['register'] = "Register";
+       $lang['register'] = "Registrati";
        $lang['login'] = "Login";
 
 
