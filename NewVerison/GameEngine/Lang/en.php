@@ -7,10 +7,11 @@
 //                              - TravianX = Travian Clone Project -                                //
 //                                 DO NOT REMOVE COPYRIGHT NOTICE!                                  //
 //////////////////////////////////////////////////////////////////////////////////////////////////////
-                                    //                         //
-									//         ENGLISH         //
-			                        //      Author: Dzoki      //
-									/////////////////////////////
+									   //                         //
+									   //         English         //
+									   //      Author: Mauroalt
+                                                                                                                                //       Translate: Dzoki (85%) itay2277 (15%)
+									   /////////////////////////////
 
 //MAIN MENU
 define("TRIBE1","Romans"); 
@@ -23,6 +24,7 @@ define("TRIBE6","Monsters");
 define("HOME","Homepage"); 
 define("INSTRUCT","Instructions");
 define("ADMIN_PANEL","Admin Panel");
+define("MH_PANEL"," MultiHunter Panel");  
 define("MASS_MESSAGE","Mass Message");
 define("LOGOUT","Logout");
 define("PROFILE","Profile");
@@ -31,13 +33,15 @@ define("UPDATE_T_10","Update Top 10");
 define("SYSTEM_MESSAGE","System message");
 define("TRAVIAN_PLUS","Travian <b><span class=\"plus_g\">P</span><span class=\"plus_o\">l</span><span class=\"plus_g\">u</span><span class=\"plus_o\">s</span></span></span></b>");
 define("CONTACT","Contact us!");
+define("ANNONCEMENT","Announcement");
+define("GO_VILLAGE","Go to my village");
 
 //MENU
 define("REG","Register");
 define("FORUM","Forum");
 define("CHAT","Chat");
 define("IMPRINT","Imprint");
-define("MORE_LINKS","More Links");
+define("MORE_LINKS","More links");
 define("TOUR","Game Tour");
 
 
@@ -68,9 +72,10 @@ define("ANAME_EMPTY","Name empty");
 define("ATAG_EXIST","Tag taken");
 define("ANAME_EXIST","Name taken");
 define("NOT_OPENED_YET","Server not started yet.");
+define("THANK_TOPIC","Credit gold");
 
 //COPYRIGHT
-define("TRAVIAN_COPYRIGHT","TravianX 100% Open Source Travian Clone.");
+define("TRAVIAN_COPYRIGHT","". SERVER_NAME ." 100% Open Source.");
 
 //BUILD.TPL
 define("CUR_PROD","Current production");
@@ -85,6 +90,52 @@ define("B3","Iron Mine");
 define("B3_DESC","Here miners produce the precious resource iron. By increasing the mine`s level you increase its iron production.");
 define("B4","Cropland");
 define("B4_DESC","Your population`s food is produced here. By increasing the farm`s level you increase its crop production.");
+define("B5","Sawmill");
+define("B5_DESC","Here wood delivered by your lumberjacks is processed. Based on its level your sawmill can increase your wood production by up to 25 percent.");
+define("B6","Brickyard");
+define("B6_DESC","Here clay is processed into bricks. Based on its level, your brickyard can increase a villages' clay production by up to 25 percent.");
+define("B7","Iron Foundry");
+define("B7_DESC","Iron is melted here. Based on its level your iron foundry can increase your iron production by up to 25 percent.");
+define("B8","Grain Mill");
+define("B9","Bakery");
+define("B10","Warehouse");
+define("B11","Ganary");
+define("B12","Blacksmith");
+define("B13","Armoury");
+define("B14","Tournament Square");
+define("B15","Main Building");
+define("B16","Rally Point");
+define("B16_DESC","Your village's troops meet here. From here you can send them out to conquer, attack, raid or reinforce other villages. ");
+define("B17","Marketplace");
+define("B18","Embassy");
+define("B19","Barracks");
+define("B20","Stable");
+define("B21","Workshop");
+define("B22","Academy");
+define("B23","Cranny");
+define("B24","Town hall");
+define("B25","Residence");
+define("B26","Palace");
+define("B27","Treasury");
+define("B28","Trade Office");
+define("B29","Great Barracks");	
+define("B30","Grande Stable");
+define("B31","City Wall");
+define("B32","Earth Wall"); 
+define("B33","Palisade");
+define("B34","Stonemason's Lodge");
+define("B35","Brewery");
+define("B36","Trapper");
+define("B37","Hero's Mansion");			
+define("B38","Great Warehouse");
+define("B39","Great Ganary");	
+define("B40","Wonder of the World");
+define("B41","Hors Drinking Trough");	
+define("B42","Great Workshop");
+
+
+
+
 
 //DORF1
 define("LUMBER","Lumber");
@@ -107,6 +158,17 @@ define("CANCEL","cancel");
 define("LOYALTY","Loyalty:"); 
 define("CALCULATED_IN","Calculated in");
 define("SEVER_TIME","Server time:");  
+
+//DORF2
+
+//DORF3
+
+//header.tpl
+define("MAP","Map");
+define("RESOURCES","Resources");
+define("STATISTICS","Statistics");
+define("REPORTS","Report");
+define("MESSAGES","Messages");
 
 //QUEST
 define("Q_CONTINUE","Continue with the next task.");
@@ -264,6 +326,7 @@ define("P_TOTAL","Players in total: ");
 define("CHOOSE","Please choose a server.");
 define("STARTED"," The server started ". round((time()-COMMENCE)/86400) ." days ago.");
 
+
 //ANMELDEN.php
 define("NICKNAME","Nickname");
 define("EMAIL","Email");
@@ -275,12 +338,12 @@ define("NW","North West");
 define("NE","North East");
 define("SW","South West");
 define("SE","South East");
-define("RANDOM","random");
+define("RANDOM","Random");
 define("ACCEPT_RULES"," I accept the game rules and general terms and conditions.");
 define("ONE_PER_SERVER","Each player may only own ONE account per server.");
 define("BEFORE_REGISTER","Before you register an account you should read the <a href='../anleitung.php' target='_blank'>instructions</a> of TravianX to see the specific advantages and disadvantages of the three tribes.");
 define("BUILDING_UPGRADING","Building:");
-define("HOURS","hours");
+define("HOURS","Hours");
 
 
 //ATTACKS ETC.
@@ -303,14 +366,19 @@ define("EMAIL_NOT_VERIFIED","Email not verified!");
 define("EMAIL_FOLLOW","Follow this link to activate your account.");
 define("VERIFY_EMAIL","Verify Email.");
 
+//LOGOUT
+define("LOGOUT_END","Successful logout.");
+define("THANKS","Thanks for your visit.");
+define("COOKIES_LOGOUT","If others use this computer, you must delete the cookies for your safety:");
+define("COOKIES_DELETE","Delete Cookies");
 
 //404.php
-define("NOTHING_HERE","Nothing here!");
-define("WE_LOOKED","We looked 404 times already but can't find anything");
+define("NOTHING_HERE","There's nothing here!");
+define("WE_LOOKED","Error 404 page not found");
 
 //TIME RELATED
 define("CALCULATED","Calculated in");
-define("SERVER_TIME","Server time:");
+define("SERVER_TIME","Server Time:");
 
 //MASSMESSAGE.php
 define("MASS","Message Content");
