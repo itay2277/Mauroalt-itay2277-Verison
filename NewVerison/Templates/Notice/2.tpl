@@ -48,7 +48,9 @@ for($i=3;$i<=12;$i++) {
     	echo "<td>".$dataarray[$i]."</td>";
     }
 }
-if ($dataarray[147]!="" or $dataarray[147]!=0){
+if ($dataarray[147]==0) {
+    	echo "<td class=\"none\">0</td>";
+    } else {
 	echo "<td>$dataarray[147]</td>";
 }
 echo "<tr><th>Casualties</th>";
